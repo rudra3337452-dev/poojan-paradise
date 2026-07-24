@@ -1,1 +1,45 @@
-/* Poojan Paradise Styles */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#fdf8ef;
+    color:#222;
+}
+
+header{
+    background:linear-gradient(90deg,#ff9800,#ff5722);
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    font-size:32px;
+}
+
+header p{
+    margin-top:8px;
+}
+
+main{
+    padding:20px;
+    text-align:center;
+}
+
+button{
+    background:#ff9800;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e68900;
+}
